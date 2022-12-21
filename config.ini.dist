@@ -36,7 +36,14 @@
 #enabled = true
 
 # The period between two measurements in seconds (Default: 300)
+# This is the polling clock, and may not create a poll
 #period = 300
+
+# The period between discovery
+#discover_period = 600
+
+# The period between gathering data
+#gather_period = 300
 
 [MQTT]
 
